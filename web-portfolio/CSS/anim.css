@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+body {
+    margin: 0;
+    padding: 0;
+  font-family: 'Raleway', sans-serif;
+ 
+}
+.hero{
+    height: 100vh;
+   /* background: #333 url('./images/landing.jpg') no-repeat center center / cover;
+    color: #ccc;
+    overflow:hidden;*/
+}
+.contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+ /* padding: 0 3rem;*/
+}
+
+h1, h2 {
+ /* margin-top: 70px;*/
+  text-align: center;
+  font-weight: bold;
+  margin: 0.4rem;
+}
+
+h1 {
+  color: #FEFEFB;
+  font-size: 3.5rem;
+  text-shadow: 0 0 8px cyan;
+
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #FEFEFB;
+}
+.txt-type{
+  color: cyan;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
+@media(min-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media(max-width: 800px) {
+  .contain {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,105 @@
+@import 'utility.css';
+@import 'bganim.css';
+body{
+	font-family: sans-serif;
+}
+header{
+	background: black;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-style: sans-serif;
+	-webkit-font-smoothing : antialiased;
+}
+.container1{
+	max-width: 1152px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+header nav .left a{
+	color: white;
+	text-decoration: none;
+	margin-right: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition:all .3s ease;
+}
+header nav .left a:hover{
+	color: #254469;
+	box-shadow: 0 0.5em 0.5em -0.4em cyan;
+
+
+}
+.right button:hover{
+	box-shadow: 0 0.5em 1em -0.4em cyan;
+	transform:translateY(-0.25em);
+}
+header nav{
+	padding: 2rem 0;
+}
+header nav .logo{
+	margin-right: 3rem;
+
+}
+/*.hero .left img{
+	width:300px;
+	height: 200px;
+}
+.hero .right{
+	margin: 10px;
+	color: white;
+
+}*/
+h1{
+	text-align: center;
+	margin: 30px;
+	font-size: 80px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+.p1,.p2,.p3{
+	margin:15px auto;
+	height: 200px;
+	width: 1200px;
+	border: 5px dotted grey;
+}
+.p1 .left img{
+	height: 140px;
+	width: 140px;
+	margin: 20px 0 20px 10px;
+}
+h3{
+	font-size: 40px;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	text-shadow: 0 0 4px white;
+
+
+}
+p{
+	font-size: 30px;
+	font-weight: 30%;
+	font-family: "Times New Roman", Times, serif;
+	color: #b2b4b8;
+}
+.p2,.p3{
+	margin-top: 20px;
+}
+.p2 .right img{
+	height: 140px;
+	width: 140px;
+	margin: 20px 0 20px 10px;
+}
+.p2 .left{
+	text-align: right;
+}
+.p3 .left img{
+	height: 140px;
+	width: 140px;
+	margin: 20px 0 20px 10px;
+}

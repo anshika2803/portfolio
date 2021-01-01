@@ -1,0 +1,64 @@
+@import 'utility.css';
+@import 'anim.css';
+@import 'bganim.css';
+
+body{
+	font-family: sans-serif;
+}
+header{
+	background: black;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-style: sans-serif;
+	-webkit-font-smoothing : antialiased;
+}
+.container1{
+	max-width: 1152px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+header nav .left a{
+	color: white;
+	text-decoration: none;
+	margin-right: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition:all .3s ease;
+}
+header nav .left a:hover{
+	color: #254469;
+	box-shadow: 0 0.5em 0.5em -0.4em cyan;
+
+}
+header nav{
+	padding: 2rem 0;
+}
+header nav .logo{
+	margin-right: 3rem;
+
+}
+.right button:hover{
+	box-shadow: 0 0.5em 0.5em -0.4em cyan;
+}
+
+.socials{
+	width: 1200px;
+	/*margin:10px 0 0 20px;*/
+	position: 0 auto;
+	margin-left: 110px;
+	margin-top: 100px;
+}
+.socials img{
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+	transition: all 0.25s ease;
+}
+.socials img:hover{
+	box-shadow: 0 0.5em 0.5em -0.4em black;
+	cursor: pointer;
+}
+

@@ -1,0 +1,75 @@
+/*@import 'utility.css';*/
+@import 'bganim.css';
+body{
+	font-family: sans-serif;
+	color: white;
+}
+
+.form{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	margin-top: 150px;
+	padding: 16px;
+    background: linear-gradient(to top right, #003366 14%, #ccffff 93%);
+}
+.form h1{
+	background: #43D1AF;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 3px;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form input[type="text"],
+.form textarea,
+.form select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 5%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+	font-weight: 20%;
+}
+.form input[type="text"]:focus,
+.form textarea:focus,
+.form select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+.form button[type="submit"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+    background: linear-gradient(to top right, #33cccc 0%, #ffffff 100%);
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: blue;
+	font-weight: bold;
+}
+.form button[type="submit"]:hover{
+	background: #2EBC99;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    cursor: pointer;
+
+}
